@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Style Script', cursive;
+}
+body {
+    background-color: #374958;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    background-size: cover;
+}
+
+:root {
+  --primary-color:#fff ;
+  --secondary-color: #0040ff;
+  --third-color:#1DA1F2;
+}
+/* outer box */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 3px 8px rgba(177, 166, 166, 0.6);
+  border-radius: 15px;
+  width: 500px;
+  background-color:var(--third-color);
+  margin: 10px;
+}
+/* inner box */
+.quote-body {
+  width: 100%;
+  padding: 1px 21px;
+  background-color:var(--primary-color);
+  border-radius: 20px;
+} 
+/* quote icon */
+.icon-quote{
+  text-align: center;
+  font-size: 18px;
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+.icon{
+  margin-right:5px ;
+}
+ .fa-quote-left {
+  font-size: 24px;
+} 
+/* quote */
+.quote {
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: italic;
+}
+/* author */
+.author {
+  font-size: 1.4rem;
+  text-align: right;
+}
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  border-top: 1px solid #93a0ac;
+  padding: 4px 0;
+}
+/* tweet Button */
+.twitter-share-button {
+  font-size: 40px;
+  color: var(--secondary-color);
+  transition: .3s ease;
+}
+
+.twitter-share-button:hover {
+  color:#374958;
+}
+/* Next Button */
+#next{
+  user-select: none;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  background-color:var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#next:active {
+ background-color:#374958;
+}
+
